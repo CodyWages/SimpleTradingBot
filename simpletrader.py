@@ -72,6 +72,6 @@ while True:
 
     # Waiting For Action        
     else:
-        print(f'\nCurrent {asset} Price: {current_price}\npatiently waiting...')
+        print(f'\nCurrent {asset} Price: ${current_price}\npatiently waiting...')
         
     time.sleep(frequency)
